@@ -1,7 +1,7 @@
 <?php
 
 
-// créations de variables
+// création de variables
 
 // variable 001 : str
 $str = "LaPlateforme";
@@ -21,7 +21,7 @@ echo "<br>";
 // affichage de phrase avec espaces 
 echo "$str2", "\n", "$str", "\n", "$str3";
 
-// retour a la ligne
+// retour à la ligne
 echo "<br>";
 
 // nouvelle variable
@@ -30,7 +30,7 @@ $val = "6";
 // faire une addition avec ma valeur "val"
 echo "$val" + "4";
 
-// retour a la ligne
+// retour à la ligne
 echo "<br>";
 
 // nouvelle variable
@@ -39,6 +39,7 @@ $myBool = true;
 // echo variable "$myBool"
 echo "La valeur quand égal true $myBool";
 
+// retour à la ligne
 echo "<br>";
 
 // modification de "$myBool"
