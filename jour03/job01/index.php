@@ -11,12 +11,3 @@ for ( $i = 0 ; isset($recipes[$i]) ; $i++) {
         echo "<br>";
     }
 }
-
-
-
-// for ($i = 0; $i/*<isset($recipes[$i])*/ <7; $i++){
-//     if ($i %2 == 1){
-//         echo $recipes[$i]  . " " . "le nombre est paire";
-//         echo "<br>";
-//     }
-// }
