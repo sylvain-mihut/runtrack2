@@ -7,3 +7,5 @@ for ( $i = 0 ; isset($str[$i]) ; $i++){
         echo ($str[$i]);
     }    
 }
+
+?>
