@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+*{
+    font-family: "Mukta", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: burlywood;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h1, form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
