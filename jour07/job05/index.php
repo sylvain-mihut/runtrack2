@@ -17,6 +17,6 @@ function occurrences($str, $char) {
     return $compteur;
 }
 
-echo 'le nombre de "e" dans Hello La Plateforme est : ', occurrences("Hello La Plateforme_!", "e");
+echo 'le nombre de "e" dans "Hello La Plateforme est" : ', occurrences("Hello La Plateforme_!", "e");
 
 ?>
