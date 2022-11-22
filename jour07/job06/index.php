@@ -17,6 +17,8 @@ Cela est valable que l’on crie ou non (majuscules et minuscules). -->
 <?php
 
 function leetSpeak($str) {
+    
+
     for($i = 0; isset($str[$i]); $i++) {
         if($str[$i] == "A" || $str[$i] == "a"){
             $str[$i] = "4";
