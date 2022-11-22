@@ -26,6 +26,6 @@ function calcule(int $a, string $operation, int $b){
     return $result;
 }
 
-echo calcule(2,'+',6);
+echo calcule(4,'+',6);
 
 ?>
