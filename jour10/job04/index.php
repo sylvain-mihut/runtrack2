@@ -8,7 +8,7 @@ données présentes dans votre base de données. -->
 $mysqli = new mysqli("localhost", "root", "", "jour09");
 // var_dump($mysqli);
 
-$REQUEST = $mysqli->query("SELECT * FROM etudiants WHERE prenom LIKE 'T%'");
+$REQUEST = $mysqli->query("SELECT prenom, nom, naissance, sexe, email FROM etudiants WHERE prenom LIKE 'T%'");
 $result_fetch_etudiants = $REQUEST->fetch_all();
 // var_dump($result_fetch_etudiants);
 
@@ -20,13 +20,12 @@ $result_fetch_etudiants = $REQUEST->fetch_all();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jour10-job01</title>
+    <title>Jour10-job04</title>
 </head>
 <body>
-    <h1>Jour10-job01</h1>
+    <h1>Jour10-job04</h1>
     <table border="1px">
         <thead>
-            <td>id</td>
             <td>Prénom</td>
             <td>Nom</td>
             <td>Naissance</td>
